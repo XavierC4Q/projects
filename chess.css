@@ -1,0 +1,114 @@
+body {
+    background-color: #68BE5D; 
+}
+
+#board {
+    width: 725px;
+    height: 575px;
+    margin:0 auto;
+    border:2px solid #000000; 
+    
+}
+
+
+.white {
+    width:90.625px;
+    height:71.875px;
+    background-color: #FFFFFF;
+    float:left;
+}
+
+.black {
+    width:90.625px;
+    height:71.875px;
+    background-color: #696565;
+    float:left;
+}
+
+.b-pawn {
+    background-image: url('blackpawn.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.w-pawn  {
+    background-image: url('whitepawn.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.b-knight  {
+    background-image: url('blackknight.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.w-knight  {
+    background-image: url('whiteKn.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.w-bishop  {
+    background-image: url('whitebishop.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.b-bishop  {
+    background-image: url('blackbishop.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.w-rook  {
+    background-image: url('whiteRk.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.b-rook  {
+    background-image: url('blackRk.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.w-queen  {
+    background-image: url('whitequeen.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.b-queen  {
+    background-image: url('blackqueen.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.b-king  {
+    background-image: url('blackking.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.w-king  {
+    background-image: url('whiteking.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:80% 70%;
+}
+
+.cell:hover {
+    background-color: yellow;
+}
